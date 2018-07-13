@@ -1,0 +1,76 @@
+header{
+  height:50px;
+}
+
+ul{
+  display: inline;
+  float: right;
+  margin: 30px;
+}
+
+li{
+  display: inline;
+}
+
+nav{
+  background-color: grey;
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+img{
+  margin: 10px;
+}
+
+div.top{
+  height: 400px;
+  background-color: lightgrey;
+  padding: 50px 0 50px 0;
+}
+h1{
+  text-align: center;
+  margin-top: 70px;
+}
+
+div.middle{
+  height: 400px;
+  padding: 50px 0 50px 0;
+}
+
+.morebutton{
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 200px 500px 20px 500px;
+  padding: 10px;
+}
+
+p{
+  text-align: justify;
+  margin: 30px 300px 30px 300px
+}
+h2{
+  text-align: right;
+  margin: 40px 300px 0 0;
+}
+
+div.bottom{
+  background-color: lightblue;
+  height: 400px;
+  padding: 50px 0 50px 0;
+}
+.centre{
+  margin: 20px 770px 50px 300px;
+}
+
+.Photo{
+margin: 10px 350px 50px 350px;
+}
+
+footer{
+background-color: grey;
+text-align:center;
+font-style: italic;
+padding: 10px;
+}
