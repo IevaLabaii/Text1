@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Website with Tables</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<header>
+<img height="60px" src="http://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png"/>
+
+  <nav>
+  <ul>
+    <li><i class="far fa-home"></i>
+      <a href="Home">Home</a></li>
+
+    <li><i class="far fa-lightbulb"></i>
+      <a href="About">About</a></li>
+
+    <li><i class="fas fa-phone"></i>
+      <a href="Contacts">Contacts</a></li>
+  </ul>
+</nav>
+
+</header>
+
+<h2>Please fill the table:</h2>
+<main>
+<table>
+  <tr>
+    <th colspan="3">Personal information</th>
+  </tr>
+  <tr>
+  <td>Name</td>
+    <td>Surname</td>
+    <td><a href="Contacts">Link</a></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+      <td>Surname</td>
+<td><a href="Contacts">Link</a></td>
+</tr>
+<tr>
+<td>Name</td>
+  <td>Surname</td>
+  <td><a href="Contacts">Link</a></td>
+</tr>
+<tr>
+  <td>Name</td>
+    <td>Surname</td>
+  <td><a href="Contacts">Link</a></td>
+</table>
+
+  <table>
+    <tr>
+      <th colspan="3">Personal information</th>
+    </tr>
+    <tr>
+    <td>Name</td>
+      <td>Surname</td>
+      <td><a href="Contacts">Link</a></td>
+    </tr>
+    <tr>
+      <td>Name</td>
+        <td>Surname</td>
+  <td><a href="Contacts">Link</a></td>
+  </tr>
+  <tr>
+  <td>Name</td>
+    <td>Surname</td>
+    <td><a href="Contacts">Link</a></td>
+  </tr>
+  <tr>
+    <td>Name</td>
+      <td>Surname</td>
+    <td><a href="Contacts">Link</a></td>
+  </table>
+</main>
+
+<h3>Please fill the form:</h3>
+
+<form>
+  <div>
+<input type="text" placeholder="Name"/>
+<input type="text" placeholder="Surname"/>
+</div>
+<div class="line">
+<input type="text" placeholder="Date of Birth"/>
+</div>
+
+<h4>Please answer:</h4>
+<input type="checkbox"/>One
+<input type="checkbox"/>Two
+<input type="checkbox"/>Three
+
+<h4>Choose one:</h4>
+<input type="radio"/>Yes
+<input type="radio"/>No
+
+<h4>Do You agree?<h4>
+  <select>
+    <option value"yes">
+      Yes
+      <option value"no">
+      No
+    </option>
+  </select>
+
+<div class="submit">
+<input type="submit"/>
+</div>
+
+</form>
+
+<div>
+<footer>
+All rights reserved
+</footer>
+</div>
+
+</body>
+</html>
